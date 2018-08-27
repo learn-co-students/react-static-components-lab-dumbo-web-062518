@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CatComponent from './CatComponent.js'
-import { FordQuoteComponent } from './FordQuoteComponent'
-import MouseComponent from '../MouseComponent'
+import FordQuoteComponent  from './FordQuoteComponent'
+import MouseComponent from './MouseComponent'
 
 class App extends Component {
   render() {
@@ -15,5 +15,7 @@ class App extends Component {
     );
   }
 }
+
+
 
 export default App;
